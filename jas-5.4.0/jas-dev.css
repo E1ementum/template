@@ -1,0 +1,41 @@
+/*
+
+	This file is part of JAS;
+	Version 5.3.2;
+	Copyright (c) 2013 - 2015 LetMeCode.ru;
+	See more in "info.txt";
+
+*/
+
+
+
+/*
+	jas_dev
+*/
+
+#jas_dev_template {
+	position: absolute;
+	width: 100%;
+	background: url('/orig.jpg') no-repeat 50% 0px;
+	opacity: 0.5;
+	top: 0px;
+	bottom: 0px;
+	z-index: 999;
+}
+#jas_dev_template_btn {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	background: #000;
+	opacity: 0.6;
+	color: #FFF;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 10px;
+	font-size: 20px;
+	cursor: pointer;
+	width: 150px;
+	text-align: center;
+	border-radius: 6px;
+	z-index: 1000;
+}

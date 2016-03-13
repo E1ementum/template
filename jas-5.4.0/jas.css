@@ -1,0 +1,141 @@
+/*
+
+	This file is part of JAS;
+	Version 5.4.0;
+	Copyright (c) 2013 - 2015 LetMeCode.ru;
+	See more in "info.txt";
+
+*/
+
+
+
+/*
+	helpers
+*/
+
+.jas_clear {
+	clear: both;
+}
+.jas_hidden {
+	position: absolute;
+	top: 0px;
+	left: -9999px;
+	visibility: hidden;
+}
+.jas_noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.jas_t1000 {
+	-webkit-transition: all 1000ms;
+	-moz-transition: all 1000ms;
+	-ms-transition: all 1000ms;
+	-o-transition: all 1000ms;
+	transition: all 1000ms;
+}
+.jas_t900 {
+	-webkit-transition: all 900ms;
+	-moz-transition: all 900ms;
+	-ms-transition: all 900ms;
+	-o-transition: all 900ms;
+	transition: all 900ms;
+}
+.jas_t800 {
+	-webkit-transition: all 800ms;
+	-moz-transition: all 800ms;
+	-ms-transition: all 800ms;
+	-o-transition: all 800ms;
+	transition: all 800ms;
+}
+.jas_t700 {
+	-webkit-transition: all 700ms;
+	-moz-transition: all 700ms;
+	-ms-transition: all 700ms;
+	-o-transition: all 700ms;
+	transition: all 700ms;
+}
+.jas_t600 {
+	-webkit-transition: all 600ms;
+	-moz-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	transition: all 600ms;
+}
+.jas_t500 {
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+.jas_t400 {
+	-webkit-transition: all 400ms;
+	-moz-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	transition: all 400ms;
+}
+.jas_t300 {
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+.jas_t200 {
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms;
+}
+.jas_t100 {
+	-webkit-transition: all 100ms;
+	-moz-transition: all 100ms;
+	-ms-transition: all 100ms;
+	-o-transition: all 100ms;
+	transition: all 100ms;
+}
+.jas_hop:hover {
+	opacity: 0.8;
+}
+.jas_center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.jas_center_x {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+.jas_center_y {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(0%, -50%);
+	-moz-transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+	-o-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+}
+
+/*
+	other
+*/
+
+.jas_popup {
+	display: none;
+}

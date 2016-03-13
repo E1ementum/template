@@ -1,0 +1,184 @@
+/*
+	skype: Elementum
+	vk: https://vk.com/e1ementum
+*/
+
+
+
+/*
+	RESET
+*/
+
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/*
+	FONTS
+*/
+
+/*
+	COMMON
+*/
+
+html {
+	position: relative;
+	min-width: 960px;
+	min-height: 100%;
+	color: #000;
+	white-space: nowrap;
+	font-size: 16px;
+	font-family: '_hz';
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+body {
+	min-height: 100%;
+}
+.content {
+	position: relative;
+	margin: 0px auto;
+	width: 910px;
+}
+.screen {
+	overflow: hidden;
+	min-height: 100%;
+	width: 100%;
+}
+::-webkit-input-placeholder {
+	color: #777;
+}
+:-moz-placeholder {
+	color: #777;
+}
+::-moz-placeholder {
+	color: #777;
+}
+:-ms-input-placeholder {
+	color: #777;
+}
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+input:focus:-moz-placeholder {
+	color: transparent;
+}
+input:focus::-moz-placeholder {
+	color: transparent;
+}
+input:focus::-ms-input-placeholder {
+	color: transparent;
+}
+textarea:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+textarea:focus:-moz-placeholder {
+	color: transparent;
+}
+textarea:focus::-moz-placeholder {
+	color: transparent;
+}
+textarea:focus::-ms-input-placeholder {
+	color: transparent;
+}
+._t1 {
+	text-align: center;
+	color: #3A3;
+	display: none;
+}
+
+/*
+	P1
+*/
+
+.p1 {}
+.p1 .content {
+	padding-top: 1px;
+}
+.p1 .b1 {
+	width: 300px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+.p1 .t1 {
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+.p1 .c1 {
+	border: 1px solid #333;
+	padding: 4px 8px;
+	background: #FFF;
+	margin-bottom: 10px;
+}
+.p1 .c2 {
+	background: #AAF;
+	line-height: 28px;
+}
+.p1 .c2:hover {
+	background: #CCF;
+}
+.p1 .c2:active {
+	background: #99D;
+}
+.p1 ._t1 {
+	line-height: 28px;
+}
+
+/*
+	POPUP_POLICY
+*/
+
+#popup_policy {
+	width: 800px;
+	height: 460px;
+	background: #FEFEFE;
+	border: 5px solid #3d3d3d;
+	position: relative;
+	text-align: left;
+}
+#popup_policy .b1 {
+	width: 740px;
+	margin: 20px auto;
+	height: 420px;
+	overflow-y: auto;
+	white-space: normal;
+	padding-right: 20px;
+	color: #3d3d3d;
+	font-size: 14px;
+}
+#popup_policy .t1 {
+	text-align: center;
+	clear: both;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 6px auto;
+}
+#popup_policy .t2 {
+	margin: 6px auto;
+}
+#popup_policy .t3 {
+	clear: both;
+	font-weight: bold;
+	margin-top: 6px;
+	margin-bottom: -6px;
+}
+#popup_policy .c1 {
+	background-repeat: no-repeat;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAvVBMVEX////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////jSrqQAAAAPnRSTlMAAQIDBAYQERMVFxkbHiAjJjI5PD9DZWltbnN0d3h5fH2DhJmen6OnqKu9wcLKzc/U2d3f4eTw8fP19vj9/iKG1OoAAACsSURBVHjadZLXEoJADEWvvWIvCNix9y4q+f/PUrYNMOt5y5nMTvYmYJTqECSmXSjKp3sDjJRLvim1cSZ6NJme0w+L68olKJ4tIL0ghhPo6pUXXjuzIsEQqN1k4W1IMcaadPRRPGq0DaBwiFu/h4D8Pqblz3K7iO5AYrxD3lU6G+n/8H79+/p5TEA/v4U//3VC+by2pJjo8xzF8l9yPdDvy9bsdyZSi99DUtzDF4nyUEf7BoCqAAAAAElFTkSuQmCC');
+	background-position: 50% 50%;
+	width: 31px;
+	height: 31px;
+	position: absolute;
+	right: -30px;
+	top: -30px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#popup_policy .c1:hover {
+	opacity: 1;
+}
+#popup_policy .c1:active {
+	opacity: 0.6;
+}

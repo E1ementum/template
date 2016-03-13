@@ -1,0 +1,299 @@
+/*
+
+	This file is part of JAS;
+	Version 5.4.0;
+	Copyright (c) 2013 - 2015 LetMeCode.ru;
+	See more in "info.txt";
+
+*/
+
+
+
+/*
+	jas_edit
+*/
+
+.jas_edit {
+	background: #FFF;
+	border: 1px solid #333;
+	position: relative;
+}
+.jas_edit.jas_error {
+	box-shadow: 0px 0px 3px 1px #F22 inset;
+}
+.jas_edit_input {
+	border: none;
+	background: none;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	color: inherit;
+	font-size: inherit;
+	text-align: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	resize: none;
+}
+
+/*
+	jas_file
+*/
+
+.jas_file {
+	position: relative;
+}
+.jas_file_input_wrap {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+.jas_file_input {
+	position: absolute;
+	opacity: 0;
+	background: #000;
+	right: 0px;
+	bottom: 0px;
+	width: 200%;
+	height: 200%;
+	min-width: 1000px;
+	min-height: 1000px;
+	display: block;
+	cursor: pointer;
+}
+
+/*
+	jas_form
+*/
+
+.jas_form_submit {
+	text-align: center;
+	position: relative;
+}
+.jas_form_submit_input {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	cursor: pointer;
+	margin: 0px;
+	border: none;
+	outline: none;
+}
+
+/*
+	jas_hint
+*/
+
+.jas_hint {
+	border: 1px solid #444;
+	background: #FFF;
+	z-index: 5;
+	border-radius: 6px;
+	top: 100%;
+	margin-top: 2px;
+	left: -11px;
+	position: absolute;
+	display: none;
+}
+.jas_hint_text {
+	padding: 8px 12px;
+	font-size: 16px;
+	line-height: 18px;
+}
+.jas_hint_tail {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAHCAQAAACWu2SvAAAAY0lEQVQI12NwYQBBVwZndrtk/eUQHghCKRtu1ebI/83/DZYjSbgB1Tsm5D67/f///ya4FEi1uEZTwttb/yEAJgVEpjlJ/0/9//3/DxAipBjMs3PuPAEL/EGRYoj8fwIuiCwFAPLgXMSBq6O6AAAAAElFTkSuQmCC');
+	width: 12px;
+	height: 7px;
+	position: absolute;
+	top: -7px;
+	left: 30px;
+}
+
+/*
+	jas_slider
+*/
+
+.jas_slider_frame {
+	position: absolute;
+}
+.jas_slider_button_left, .jas_slider_button_right {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*
+	jas_popup
+*/
+
+.jas_popup_overlay {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+	background: rgba(0, 0, 0, 0.7);
+}
+.jas_popup_wrap {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	overflow-y: auto;
+}
+.jas_popup_table {
+	display: table;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.jas_popup_cell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.jas_popup {
+	position: relative;
+	text-align: left;
+}
+.jas_popup_close {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*
+	jas_dropdown
+*/
+
+.jas_dropdown {
+	background: #FFF;
+	border: 1px solid #333;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.jas_dropdown.jas_error {
+	box-shadow: 0px 0px 3px 1px #F22 inset;
+}
+.jas_dropdown_dropper {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	min-width: 100%;
+	z-index: 1;
+	background: #FFF;
+	box-shadow: 0px 0px 1px 0px #333 inset;
+	max-height: 0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.jas_dropdown.jas_expanded .jas_dropdown_dropper {
+	max-height: 210px;
+}
+.jas_dropdown_option {
+	padding: 0px 8px;
+	cursor: pointer;
+	line-height: 30px;
+}
+.jas_dropdown_option:hover {
+	background: #EEE;
+}
+.jas_dropdown_arrow {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAA9PT09PT09PT09PT09PT09PT09PT1SnGz2AAAAB3RSTlMARcTLUdFMPR/r+QAAAEdJREFUCNctyqsBgDAQwNDw1Thst2AERmAE9NWwPu2lURGP58sqtxNsTmF1DrgkiAJYJLAP0pAE3iSikjMlSVSxM7C5EVEnP+uLHL7ehM6bAAAAAElFTkSuQmCC');
+	position: absolute;
+	background-size: 60% auto;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	border-left: 1px solid #333;
+	cursor: pointer;
+}
+.jas_dropdown.jas_expanded .jas_dropdown_arrow {
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
+	-o-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+}
+.jas_dropdown_content {
+	padding-left: 12px;
+	padding-right: 33px;
+	cursor: pointer;
+}
+.jas_dropdown_placeholder {
+	padding-left: 12px;
+	padding-right: 33px;
+	color: #AAA;
+	cursor: pointer;
+}
+
+/*
+	jas_trackbar
+*/
+
+.jas_trackbar {
+	position: relative;
+	background: #FFF;
+	border: 1px solid #333;
+	height: 10px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.jas_trackbar_lock {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+.jas_trackbar_line {
+	background: #55A;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+.jas_trackbar_button {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: #EEE;
+	border: 1px solid #333;
+	box-sizing: border-box;
+	right: 0px;
+	margin-right: -10px;
+	top: 50%;
+	border-radius: 50%;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.jas_trackbar_button:hover, .jas_trackbar.jas_active .jas_trackbar_button {
+	background: #EC6;
+}
